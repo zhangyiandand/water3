@@ -67,11 +67,16 @@ body {
     justify-content:space-around;
     align-content: space-around;
 }
-.introduce .choose img{
+.introduce .choose{
     width: 0.24rem;
     height: 0.24rem;
     margin-top: 0.8rem;
     margin-right: 0.1rem;
+    border-radius: 50%;
+    background-color: #e7f6ff;
+}
+.introduce > .choose.hot{
+    background-color:rgba(55,223,116,0.75) ;
 }
 .introduce .image{
     width: 1.7rem;
